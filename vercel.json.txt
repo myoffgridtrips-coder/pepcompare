@@ -1,0 +1,19 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "devCommand": "next dev",
+  "env": [
+    {
+      "key": "DATABASE_URL",
+      "description": "PostgreSQL connection string",
+      "value": "",
+      "type": "secret"
+    },
+    {
+      "key": "APIFY_API_TOKEN",
+      "description": "Your Apify API token",
+      "value": "",
+      "type": "secret"
+    }
+  ]
+}
